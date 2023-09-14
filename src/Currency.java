@@ -12,7 +12,6 @@ public class Currency {
 
     // TODO: create a method to convert dollar to dirham
     public static double dollarToDirham(double value) {
-        System.out.println(value);
         return value *= 3.67;
     }
 
@@ -30,7 +29,7 @@ public class Currency {
         System.out.println("The random decimal value: " + randomDecimal);
 
         // TODO: print out the convertions
-        System.out.println(dollarToYen(userInput));
-        dollarToDirham(randomDecimal);
+        System.out.println("dollar to yen: " + dollarToYen(userInput));
+        System.out.println("dollar to dirham: " + dollarToDirham(randomDecimal));
     }
 }
